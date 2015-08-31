@@ -1,5 +1,21 @@
+.main-menu{
+  height: 40px;
+  border-bottom: solid 1px #ddd;
+}
+.main-menu .container-fluid div{
+  line-height: 40px;
+  padding: 0;
+  text-align: center;
+}
+.nav-button{
+  border:0;
+  padding: 0;
+  background: inherit;
+  line-height: 40px;
+  font-size: 1.1em;
+}
 .main-content{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .section-header{
   height: 40px;
