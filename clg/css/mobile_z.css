@@ -1,6 +1,11 @@
 .main-menu{
   height: 40px;
   border-bottom: solid 1px #ddd;
+  font-size: 1.1em;
+}
+.main-menu a{
+  color: black;
+  font-size: 1.1em;
 }
 .main-menu .container-fluid div{
   line-height: 40px;
@@ -16,6 +21,7 @@
 }
 .main-content{
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .section-header{
   height: 40px;

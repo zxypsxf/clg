@@ -19,9 +19,11 @@
     <![endif]-->
   </head>
   <body>
+    <!-- ///////// 上下导航条 //////////// -->
     <nav class="nav navbar-default navbar-fixed-top main-menu">
     <div class="container-fluid">
-      <div class="col-xs-2 dropdown">
+      <div class="col-xs-3"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></div>
+      <div class="col-xs-3 dropdown">
         <button class="dropdown-toggle nav-button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           资讯
         </button>
@@ -31,7 +33,7 @@
           <li><a href="#">融资并购</a></li>
         </ul>
       </div>
-      <div class="col-xs-2 dropdown">
+      <div class="col-xs-3 dropdown">
         <button class="dropdown-toggle nav-button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           活动
         </button>
@@ -43,7 +45,12 @@
           <li><a href="#">企业家俱乐部</a></li>
         </ul>
       </div>
-      <div class="col-xs-2 dropdown">
+      <div class="col-xs-3"><a href="login.html">登录</a></div>
+    </div><!-- /.container-fluid -->
+    </nav>
+    <nav class="nav navbar-default navbar-fixed-bottom main-menu">
+    <div class="container-fluid">
+      <div class="col-xs-4 dropdown">
         <button class="dropdown-toggle nav-button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           服务
         </button>
@@ -53,35 +60,19 @@
           <li><a href="#">求报道</a></li>
         </ul>
       </div>
-      <div class="col-xs-2 dropdown">
-        <button class="nav-button">
+      <div class="col-xs-4 dropdown">
+        <a class="nav-button">
           项目
-        </button>
+        </a>
       </div>
-      <div class="col-xs-3 dropdown">
-        <button class="nav-button">
+      <div class="col-xs-4 dropdown">
+        <a class="nav-button">
           投资机构
-        </button>
-      </div>
-      <div class="col-xs-1" style="float:right">
-        <button class="nav-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-        </button>
+        </a>
       </div>
     </div><!-- /.container-fluid -->
     </nav>
-
-    <div class="collapse" id="collapseExample" style="position: fixed;z-index:2">
-        <form action="a.html">
-        <div class="input-group" style="padding:5px 5px 5px 5px">
-          <input type="text" class="form-control" placeholder="keywords" >
-          <span class="input-group-addon search-button" id="basic-addon2">
-            <input type="submit" class="btn" value="确定">
-          </span>
-        </div>
-        </form>
-    </div>
-
+    <!-- //////////// -->
     <div class="main-content">
       <!-- 路径导航 -->
       <ol class="breadcrumb">
